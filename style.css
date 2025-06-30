@@ -1,0 +1,78 @@
+body{
+    background-image: url(OrganicAgriculture.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.logo{
+  font-size: 51px;
+  color: white;
+}
+
+.navbar{
+  background-color: green;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li{
+  padding: 10px 30px;
+  position: relative;
+}
+
+.navbar ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 25px;
+
+  transition: all 0.3s;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.dropdown{
+  display: none;
+}
+
+.navbar ul li:hover .dropdown{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: green;
+}
+
+.navbar ul li:hover .dropdown ul{
+  display: block;
+}
+
+.navbar ul li:hover .dropdown ul li{
+  width: 110px;
+  padding: 7px;
+}
+
+.heading{
+  margin-top: 200px;
+}
+
+h1, h2{
+  color: white;
+  font-size: 65px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+}
